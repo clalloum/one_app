@@ -48,8 +48,9 @@ end
 # = Cyril =
 # =========
 
+group :production do
 # Use rails_12factor pour Heroku
-gem 'rails_12factor', group: :production
-
+gem 'rails_12factor'
 # Use PostgreSQL
 gem 'pg'
+end
